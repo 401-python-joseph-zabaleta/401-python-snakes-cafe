@@ -4,8 +4,9 @@ def intro():
   print(dedent(f"""
   {"*"*38}
   **    Welcome to the Snakes Cafe!   **
+  **    Please see our menu below.    **
   **
-  ** To quit at anytime, type \"quit\" **"
+  ** To quit at anytime, type \"quit\" **
   {"*"*38}
   """))
 
