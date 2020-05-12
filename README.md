@@ -40,4 +40,6 @@ This project is under the MIT License.
   - branch-01 created.  
   - Lab01 Feature list complete  
   - ACP to branch-01  
+- 1.0.2 20200512  
+  - fixed an ordering issue within the while loop.
 

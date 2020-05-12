@@ -33,6 +33,9 @@ def prompt():
   while True:
     answer1 = str(input())
     
+    if answer1 == 'quit':
+      break
+    
     if answer1 not in order:
       order[answer1] = 0
 
@@ -40,8 +43,6 @@ def prompt():
 
     print(f"\n** {order[answer1]} orders of {answer1} have been added to your meal **\n")
 
-    if answer1 == 'quit':
-      break
 
 def main():
   intro()
